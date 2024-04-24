@@ -1,0 +1,34 @@
+.price-filter-body {
+  border-bottom: 1px solid var(--ink_150-graphite_500);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #e1e5ec;
+  > span {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+}
+
+.price-filter-value {
+  display: flex;
+  justify-content: space-around;
+  .selected-price {
+    width: 20%;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #0c73fe;
+    border-radius: 10%;
+    font-size: 16px;
+  }
+}
+
+.range{
+  cursor: pointer;
+  accent-color: #fa742d;
+}
+
+
